@@ -3,4 +3,4 @@ layout: default
 title: Resume
 ---
 
-Download resume here
+View my resume [as a pdf]({{"/assets/Cswavola.Resume.pdf"}})

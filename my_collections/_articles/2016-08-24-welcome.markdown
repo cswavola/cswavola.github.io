@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "What you'll find here"
+description: General Welcome Post
 date:   2016-08-24 17:49:38 +0100
 categories: Posts
 ---
