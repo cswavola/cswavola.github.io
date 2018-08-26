@@ -2,6 +2,7 @@
 layout: hidden
 permalink: /by_language
 ---
+<br>
 # Projects by Language
 {% assign mydocs = site.projects | group_by: 'language' | sort: "language" | reverse %}
 {% for cat in mydocs %}

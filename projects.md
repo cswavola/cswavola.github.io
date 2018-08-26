@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Projects
+menu: main
 ---
 ###### [View content by category][cat_page] or [code language][lang_page]
 <h1>Projects</h1>

@@ -2,7 +2,8 @@
 layout: hidden
 permalink: /by_category
 ---
-# Projects
+<br>
+# Projects by Category
 {% assign mydocs = site.projects | group_by: 'category' | sort: "category" %}
 {% for cat in mydocs %}
 <h3>{{ cat.name }}</h3>
