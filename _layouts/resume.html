@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+
+    {%- include header.html -%}
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+
+        <div class="s6" data-columns="5" data-rows="5">
+          <p>Hello</p><img src="https://raw.githubusercontent.com/strafeOK/image-host/master/PuyOUaL.jpg"/>
+        </div>
+        {%- include css/border_blinds.css -%}
+        {%- include JS/blinds.js -%}
+        {{ content }}
+      </div>
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>

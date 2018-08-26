@@ -3,7 +3,7 @@ layout: post
 title:  "Messenger Kids- an Ethics review"
 date:   2018-08-24 12:22:57 +0100
 description: Is Facebook's family-friendly app a bit too friendly?
-categories: Ethics
+category: Ethics
 ---
 The article below was originally posted on the Berkley blog for Ethical Legal Data Science on February 6, 2018. Check out the [original post][Berkeley-post] and more articles about data ethics on [Berkeley's Blog][Berkeley-home].
 

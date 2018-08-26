@@ -2,6 +2,7 @@
 layout: default
 title: Posts and Articles
 ---
+###### [View content by category][cat_page]
 <h1>Posts and Articles</h1>
 <ul>
     {% assign sorted = site.articles | sort: 'date' | reverse %}
@@ -12,3 +13,6 @@ title: Posts and Articles
     <br>
     {% endfor %}
 </ul>
+
+
+[cat_page]: /by_category
