@@ -5,9 +5,9 @@
 layout: page
 
 ---
-
-Do you even know how interesting I am?
-[SO INTERESTING][omg]
+My name is Charlotte and this is my site.
+<br><br>
+My skills and resume as a series of images will appear here soon.
 
 
 [omg]: https://i.imgur.com/I8JhbmW.gif

@@ -2,7 +2,7 @@
 layout: default
 title: Projects
 ---
-###### [View content by category][cat_page] 
+###### [View content by category][cat_page] or [code language][lang_page]
 <h1>Projects</h1>
 
 <ul>
@@ -28,3 +28,4 @@ title: Projects
 
 
 [cat_page]: /by_category
+[lang_page]: /by_language
