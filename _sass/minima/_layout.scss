@@ -2,10 +2,10 @@
  * Site header
  */
 .site-header {
-  background-image: linear-gradient(#0D77C8,#fdfdfd);
-  border-top: 5px solid #0D77C8;
+  background-image: $header-image;
+  border-top: 5px solid $header-color-dark;
   border-bottom: 0px solid $grey-color-light;
-  min-height: $spacing-unit * 2.415;
+  min-height: $spacing-unit * 2.65;
 
   // Positioning context for the mobile navigation icon
   position: relative;

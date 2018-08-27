@@ -9,6 +9,12 @@
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
+        {% if page.links_as == 'buttons' %}
+        <a href="/by_category" class="category_button"> By Category </a>
+        {% if page.title == 'Projects' %}
+        <a href="/by_language" class="category_button"> By Language </a>
+        {% endif %}
+        {% endif %}
         {{ content }}
       </div>
     </main>

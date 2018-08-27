@@ -112,18 +112,36 @@ a {
 
   &:hover {
     text-decoration: none;
-    border-bottom: 2px solid #0D77C8;
+    border-bottom: 2px solid $brand-color;
   }
 
   .social-media-list &:hover {
     text-decoration: none;
 
     .username {
-      text-decoration: underline;
+      text-decoration: none;
     }
   }
 }
 
+.category_button {
+  background-color: $header-color-light;
+  border: 2px solid lighten($brand-color,15%);
+  display: inline-block;
+  padding: 5px 5px;
+  color: $header-color-light;
+  font-size: 12px;
+  border-radius:4px;
+  text-align: center;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+.category_button:hover {
+background-color: lighten($brand-color,15%);
+color: $header-color-light;
+text-decoration: none;
+}
 
 /**
  * Blockquotes

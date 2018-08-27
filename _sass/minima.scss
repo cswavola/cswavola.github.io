@@ -12,12 +12,12 @@ $spacing-unit:     30px !default;
 
 $text-color:       #111 !default;
 $background-color: #fdfdfd !default;
-$header-image: linear-gradient(blue,white);
-$header-color-dark: #0D77C8;
-$header-color-light: #D1D6DF;
-$brand-color:      #0D77C8 !default;
+$header-image: linear-gradient(#1cadc2,#fdfdfd);
+$header-color-dark: #1cadc2;
+$header-color-light: #fdfdfd;
+$brand-color:      #106774 !default;
 
-$grey-color:       #0D77C8;
+$grey-color:       #0b454d;
 $grey-color-revised: #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;;

@@ -1,9 +1,8 @@
 ---
 layout: default
 title: Projects
-menu: main
+links_as: buttons
 ---
-###### [View content by category][cat_page] or [code language][lang_page]
 <h1>Projects</h1>
 
 <ul>

@@ -2,6 +2,7 @@
 layout: default
 title: Posts and Articles
 menu: main
+links_as: buttons
 ---
 ###### [View content by category][cat_page]
 <h1>Posts and Articles</h1>

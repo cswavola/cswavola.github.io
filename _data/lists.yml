@@ -1,0 +1,16 @@
+categories:
+  -name: Visualizations
+  -name: Ethics
+  -name: Privacy
+  -name: Geoprocessing
+  -name: Experimentation
+  -name: General
+  -name: Hadoop
+  -name: Hive
+#
+# languages:
+#   -JS/CSS/HTML
+#   -Python
+#   -R
+#   -SQL/SAS
+#   -Spark/Pyspark
