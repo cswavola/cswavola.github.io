@@ -8,9 +8,9 @@ links_as: buttons
 <ul>
     {% assign sorted = site.projects | sort: 'date' | reverse %}
     {% for item in sorted %}
-    {{ item.date | date: "%B %Y" }}
+    <!-- {{ item.date | date: "%B %Y" }} -->
     <h2><a href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a></h2>
-    <p class="post-excerpt">{{ item.description | truncate: 160 }}</p>
+    <p class="post-excerpt" style="margin-left: 5%">{{ item.description | truncate: 160 }}</p>
     <br>
     {% endfor %}
 </ul>
