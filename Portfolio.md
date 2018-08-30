@@ -34,5 +34,5 @@ by_language: true
     {% endfor %}
 </ul>
 
-[project]:[/projects]
-[posts]:[/articles]
+[project]:/projects
+[posts]:/articles
