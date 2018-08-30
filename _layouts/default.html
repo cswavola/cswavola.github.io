@@ -11,6 +11,9 @@
       <div class="wrapper">
         {% if page.links_as == 'buttons' %}
         <a href="/by_category" class="category_button"> By Category </a>
+        {% if page.by_language != blank %}
+        <a href="/by_language" class="category_button"> By Language </a>
+        {% endif %}
         {% if page.title == 'Projects' %}
         <a href="/by_language" class="category_button"> By Language </a>
         {% endif %}

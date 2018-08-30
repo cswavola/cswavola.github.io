@@ -13,7 +13,7 @@
 
 .site-title {
   @include relative-font-size(1.625);
-  font-weight: 300;
+  font-weight: 350;
   line-height: $base-line-height * $base-font-size * 2.25;
   letter-spacing: -1px;
   margin-bottom: 0;
@@ -208,11 +208,57 @@
   @include relative-font-size(1.5);
 }
 
+/**
+ * Homebrew
+ */
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+
+/*Navigation*/
+
+#nav {
+ font: 12px/30px Helvetica, sans-serif;
+ text-align: center;
+}
+
+#nav a {
+ background: darken($grey-color-light, 20%);
+ color: #fff;
+ margin-right: 15px;
+ padding: 5px;
+ height: 30px;
+ float: left;
+ text-decoration: none;
+ -webkit-transition: all 0.5s ease;
+}
+
+#nav a:hover {
+ background: #6fcbf3;
+}
+
+/* float clearing for IE6 */
+* html .clearfix{
+  height: 1%;
+  overflow: visible;
+}
+
+/* float clearing for IE7 */
+*+html .clearfix{
+  min-height: 1%;
+}
+
+/* float clearing for everyone else */
+.clearfix:after{
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+  font-size: 0;
 }
 
 

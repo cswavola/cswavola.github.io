@@ -19,7 +19,7 @@ permalink: /by_category
 
 ----
 
-# Posts
+# Essays and Articles
 
 {% assign mydocs = site.articles | group_by: 'category' | sort: "category" %}
 {% for cat in mydocs %}

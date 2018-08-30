@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Posts and Articles
 menu: main
 links_as: buttons
+permalink: /posts
 ---
-###### [View content by category][cat_page]
+
 <h1>Posts and Articles</h1>
 <ul>
     {% assign sorted = site.articles | sort: 'date' | reverse %}

@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Projects
 links_as: buttons
+by_language: true
+permalink: /projects
 ---
 <h1>Projects</h1>
 

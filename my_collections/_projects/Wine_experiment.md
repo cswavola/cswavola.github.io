@@ -9,10 +9,17 @@ permalink: /_projects/Wine_Exp
 side-nav: on
 
 ---
-<!-- <a name="linktotop"></a> -->
+
+
 
 ##### In collaboration with [Sharad Varadarajan][sharadsite] and [Rory Liu][rorysite].
 ###### [View full PDF]({{site.baseurl}}/assets/Wine_Writeup.pdf)  
+<div id="nav" class="clearfix">
+<a href="#design">Design</a>  
+<a href="#methods">Methods</a>  
+<a href="#results">Results</a>
+</div>
+<br>
 <div class="section">
 <h1><a name="summary"></a>Summary</h1>
 Design, launch, and statistical analysis of a multifactorial advertising experiment to evaluate the impact of foreign language marketing on perceived value of wine. Analysis used experimental techniques and multiple types of linear regression models.
@@ -68,10 +75,7 @@ Treatment signals were undetectable using random inference (on the bottom 95% of
 
 
 [Project Git][Wine_git]  
-<a href="#summary">Summary</a>  
-<a href="#design">Design</a>  
-<a href="#methods">Methods</a>  
-<a href="#results">Results</a>
+
 <!-- <a href="#linktotop">Back To Top</a> -->
 
 [sharadsite]: [https://github.com/sharadv99]
