@@ -1,16 +1,15 @@
 ---
 layout: page
 title:  "Vous voulez du vin?"
-description: An experiment based analysis of wine-market features and purchase likelihood
+description: Experimental analysis of wine-market features and purchase likelihood
 date:   2018-08-20 17:49:38 +0100
 category: Market Testing
 language: R
 permalink: /_projects/Wine_Exp
 side-nav: on
-
+excerpt_separator: <!--more-->
+summary: {{excerpt}}
 ---
-
-
 
 ##### In collaboration with [Sharad Varadarajan][sharadsite] and [Rory Liu][rorysite].
 ###### [View full PDF]({{site.baseurl}}/assets/Wine_Writeup.pdf)  
@@ -26,14 +25,17 @@ Design, launch, and statistical analysis of a multifactorial advertising experim
 </div>
 <br>
 
-----
+
+<hr class="style-thin">
 
 <br>
 <h1><a name="design"></a>Design</h1>
 This experiment was used to analyze multiple effects of marketing environment on the perception of product value. The multifactorial design includes three treatment variables: page language, flavor description length, and country of origin. While a product's country of origin is non-mutable for marketing purposes, this was an important feature to analyze any interaction with the page format. In addition to French and English, German was added as a language format to observe the effects of a foreign language that's not usually associated with the product. The description length was be used both as a feature and a metric of dosage for the language format.
 
-<img src="/assets/images/Group_Design.png" alt="drawing" width="350" class="center"/>
 
+
+<img src="/assets/images/Group_Design.png" alt="drawing" width="350" class="center"/>
+<!--more-->
 The experiment was conducted as a survey. Participants first answer demographic questions, then were prompted with the treatment. The multiple treatments were administered simultaneously in the form of an image of an online marketing page. Each variable appeared on the page
 <br>
 

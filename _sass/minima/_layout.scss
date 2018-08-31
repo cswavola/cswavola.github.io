@@ -218,6 +218,26 @@
     width: 50%;
 }
 
+/* Single-direction drop shadow */
+hr.style-thin {
+    height: 1px;
+    border: 0;
+    box-shadow: inset 0 18px 18px -18px rgba(0, 0, 0, 0.5);
+    }
+hr.style-four {
+    height: 18px;
+    border: 0;
+    box-shadow: inset 0 18px 18px -18px rgba(0, 0, 0, 0.5);
+    }
+
+header-name {
+      text-align: center;
+      @include relative-font-size(2);
+
+      @include media-query($on-laptop) {
+        @include relative-font-size(1.75);
+      }
+    }
 /*Navigation*/
 
 #nav {
