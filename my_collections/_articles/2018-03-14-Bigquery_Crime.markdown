@@ -33,7 +33,6 @@ Each record contains a unique identifier, date of the incident, date of most rec
 There may be a collection bias dependent on civilian-police relations or inherent policing biases. These potential biases can’t be identified in the dataset, as the data does not distinguish between police-identified incidents and incidents in which the police were called by civilians. At face value, fewer reports means fewer incidents, yet the relationship between the police and the community may impact their willingness to call the authorities, or lead to more incidents reported in specific communities or populations.
 Still, the data reported here reflects an agreement of context to responsible policing, as population details like race, age, gender, and income, are not recorded. Even the inclusion of unverified reports has a role in determining overall activity and impact of current police presence. Additionally, when an individual reports a potential crime incident to the police, they generally expect that the police will respond and collect data/information on the incident for later use. However, when this dataset was initially made publicly available, the context of the usage changed from protection to potential exposure among peers and community members, without an opportunity for recourse
 
-<!--more-->
 <br>
 <h1><a name="b2"></a>Identified Risks</h1>
 #### _Unverified Reports_
