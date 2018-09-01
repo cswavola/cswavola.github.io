@@ -1,6 +1,6 @@
 ---
 layout: default
-links_as: buttons
+links_as: false
 by_language: true
 permalink: /projects
 ---

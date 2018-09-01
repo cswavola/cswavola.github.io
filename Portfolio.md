@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Portfolio
-links_as: buttons
-by_language: true
+by_language: false
 ---
 
 <br>
@@ -26,7 +25,7 @@ by_language: true
 ##### [View all posts][posts]
 <ul>
     {% assign sorted = site.articles | sort: 'date' | reverse %}
-    {% for item in sorted limit:2 %}
+    {% for item in sorted limit:3 %}
     <!-- {{ item.date | date: "%B %Y" }} -->
     <h2><a href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a></h2>
     <p class="post-excerpt" style="margin-left: 5%">{{ item.description | truncate: 160 }}</p>

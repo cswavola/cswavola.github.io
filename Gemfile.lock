@@ -76,6 +76,7 @@ DEPENDENCIES
   jekyll (~> 3.8.3)
   jekyll-archives
   jekyll-feed (~> 0.6)
+  kramdown
   minima (~> 2.0)
   tzinfo-data
   wdm (~> 0.1.0)

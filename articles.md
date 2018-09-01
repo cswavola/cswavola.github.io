@@ -1,11 +1,12 @@
 ---
 layout: default
 menu: main
-links_as: buttons
-permalink: /posts
+links_as: false
+by_language: false
+permalink: /articles
 ---
+<h2>Posts and Articles</h2>
 
-<h1>Posts and Articles</h1>
 <ul>
     {% assign sorted = site.articles | sort: 'date' | reverse %}
     {% for item in sorted %}

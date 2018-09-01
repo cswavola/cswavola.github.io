@@ -5,6 +5,7 @@ description: Experimental analysis of wine-market features and purchase likeliho
 date:   2018-08-20 17:49:38 +0100
 category: Market Testing
 language: R
+links_as: buttons
 permalink: /_projects/Wine_Exp
 side-nav: on
 excerpt_separator: <!--more-->
@@ -19,10 +20,8 @@ summary: {{excerpt}}
 <a href="#results">Results</a>
 </div>
 <br>
-<div class="section">
 <h1><a name="summary"></a>Summary</h1>
 Design, launch, and statistical analysis of a multifactorial advertising experiment to evaluate the impact of foreign language marketing on perceived value of wine. Analysis used experimental techniques and multiple types of linear regression models.
-</div>
 <br>
 
 
