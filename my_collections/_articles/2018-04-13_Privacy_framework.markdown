@@ -42,6 +42,6 @@ Currently, scientists seeking to characterize privacy have methods such as a tax
 <a name="visual"></a>
 #### *Framework Visual- from Conclusion*
 
-![privacy_framework]({{ "/assets/images/privacy_framework.png"  }})
+![privacy_framework]({{site.baseurl}}/assets/images/privacy_framework.png)
 
 [Read Full Article]({{site.baseurl}}/assets/Ethics_Social_Article.pdf)
