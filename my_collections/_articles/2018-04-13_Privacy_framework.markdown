@@ -8,7 +8,7 @@ by_language: false
 language: false
 links_as: buttons
 excerpt_separator: <!--more-->
-image: /assets/images/privacy_framework.png
+image: assets/images/privacy_framework.png
 ---
 
 <div id="nav" class="clearfix">
