@@ -7,6 +7,7 @@ category: Ethics
 language: SQL
 excerpt_separator: <!--more-->
 links_as: buttons
+image: assets/images/BigQuery_crimemap.PNG
 ---
 
 <div id="nav" class="clearfix">

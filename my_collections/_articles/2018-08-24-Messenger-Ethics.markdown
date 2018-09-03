@@ -7,6 +7,7 @@ category: Ethics
 language: false
 excerpt_separator: <!--more-->
 links_as: buttons
+image: false
 ---
 <div id="nav" class="clearfix">
 <a href="#b1">Background</a>  

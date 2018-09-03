@@ -7,6 +7,7 @@ category: DataViz
 language: JavaScript/CSS/HTML
 permalink: /_projects/index.html
 links_as: buttons
+image: false
 
 ---
 ##### In collaboration with [Joe Izenman][joesite]
