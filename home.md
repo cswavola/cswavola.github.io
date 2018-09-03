@@ -1,19 +1,22 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
+credit: icon
 ---
+<h2-cheesy>Hello World!</h2-cheesy>
+I'm a Data Scientist born from the Engineering world, so the only thing that outweighs my desire to _make it work_ is to make it work **right**. To me, that means ensuring that data provides fair and accurate representation- not cutting corners just to find "an answer," and that people fully understand the outcomes from sharing and using their data. Sometimes this means engaging my inner chemist and diving down to the fundamental mechanics of a problem. Sometimes it brings out the teammate in me to get everyone on the same page. Always, I get to learn something new. That last part is what got me into Data Science; the first part is what keeps me going.  <br><br>
 
-<h1>Welcome!</h1>
-I'm a Data Scientist born from the Engineering world, so the only thing that outweighs my desire to _make it work_ is to make it work **right**. To me, that means ensuring that data provides fair and accurate representation- not cutting corners just to find "an answer," and that people fully understand the outcomes from sharing and using their data. Sometimes this means engaging my inner chemist and diving down to the fundamental mechanics of a problem. Sometimes it brings out the teammate in me to get everyone on the same page. Always, I get to learn something new. That last part is what got me into Data Science; the first part is what keeps me going.  
+On this site you'll find recent samples from my portfolio, my <a href="{{site.baseurl}}/assets/Cswavola.Resume.pdf">resume</a>, and a bit more about me.
+<br><br>
 
-On this site you'll find recent samples from my portfolio, my [resume]({{site.baseurl}}/assets/Cswavola.Resume.pdf), and a bit more about me.
-<br>
+<h2  align="center">Skills and Services</h2><br>
+![Services]({{ site.baseurl }}/assets/images/services.svg)
 
+<br><br>
 
+<hr class="style-four"><br>
+<h2  align="center">Recent Content</h2><br>
 
-<hr class="style-four">
 <ul>
     {% assign posts = site.articles %}
     {% assign projects = site.projects %}

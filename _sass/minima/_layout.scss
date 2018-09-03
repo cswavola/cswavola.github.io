@@ -244,6 +244,15 @@ header-name {
         @include relative-font-size(1.75);
       }
     }
+
+h2-cheesy {
+  font-family: monospace;
+    @include relative-font-size(2);
+
+    @include media-query($on-laptop) {
+      @include relative-font-size(1.75);
+    }
+  }
 /*Navigation*/
 
 #nav {
@@ -330,5 +339,6 @@ header-name {
     @include media-query($on-laptop) {
       @include relative-font-size(1.125);
     }
+
   }
 }

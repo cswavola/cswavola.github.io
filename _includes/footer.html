@@ -51,7 +51,9 @@
       </div>
       <div class="footer-col footer-col-3">
         <p>{{- site.description | escape -}}</p>
-
+        {% if page.credit == 'icon' %}
+          <h5>Lineart Icons made by <a href="https://www.freepik.com/">Freepik</a> from <a href="www.flaticon.com">www.flaticon.com</a> </h5>
+          {% endif %}
       </div>
     </div>
 
