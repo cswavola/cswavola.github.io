@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
-
+credit: icon
 ---
 <h1>Welcome!</h1>
 I'm a Data Scientist born from the Engineering world, so the only thing that outweighs my desire to _make it work_ is to make it work **right**. To me, that means ensuring that data provides fair and accurate representation- not cutting corners just to find "an answer," and that people fully understand the outcomes from sharing and using their data. Sometimes this means engaging my inner chemist and diving down to the fundamental mechanics of a problem. Sometimes it brings out the teammate in me to get everyone on the same page. Always, I get to learn something new. That last part is what got me into Data Science; the first part is what keeps me going.  
