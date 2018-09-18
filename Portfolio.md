@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Portfolio
+title: Full Portfolio
 by_language: false
 ---
 
 <br>
 <h1>Projects</h1>
-##### [View all projects][project]
+<!-- ##### [View all projects][project] -->
 <ul>
     {% assign sorted = site.projects | sort: 'date' | reverse %}
     {% for item in sorted %}
@@ -22,7 +22,7 @@ by_language: false
 ----
 <br>
 <h1>Essays and Articles</h1>
-##### [View all posts][posts]
+<!-- ##### [View all posts][posts] -->
 <ul>
     {% assign sorted = site.articles | sort: 'date' | reverse %}
     {% for item in sorted %}

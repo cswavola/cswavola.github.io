@@ -10,7 +10,7 @@ I'm a Data Scientist born from the Engineering world, so the only thing that out
 On this site you'll find recent samples from my portfolio, my <a href="{{site.baseurl}}/assets/Cswavola.Resume.pdf">resume</a>, and a bit more about me.
 <br><br>
 
-<h2  align="center">Skills and Services</h2><br>
+<h2  align="center">Skills and Specialties</h2><br>
 ![Services]({{ site.baseurl }}/assets/images/services.svg)
 
 <br><br>

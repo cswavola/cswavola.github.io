@@ -74,6 +74,12 @@ The following statistical methods were tested with and without demographic covar
 <h1><a name="results"></a>Findings</h1>
 Treatment signals were undetectable using random inference (on the bottom 95% of price guesses) and the sharp-null and simple linear regression. Statistical significance was observed in binary logistic regressions with french layout * french origin at 5% statistical significance in the training set and 10% in the test set. It should be noted that further data acquisition could increase the intensity of this signal.
 
+### Sample Images from Report
+<br>
+![Winecosts]({{ "/assets/images/Guess_costs_origin_description.PNG"  }})
+<br>
+![WineOLS]({{ "/assets/images/wine_OLS_table.PNG"  }})
+<br>
 
 [Project Git][Wine_git]  
 
