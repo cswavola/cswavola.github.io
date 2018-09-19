@@ -5,7 +5,6 @@ description: Analysis of gentrification in post-Katrina New Orleans
 date:   2017-12-10 17:49:38 +0100
 category: DataViz
 language: JavaScript/CSS/HTML
-permalink: /_projects/index.html
 links_as: buttons
 image: false
 
