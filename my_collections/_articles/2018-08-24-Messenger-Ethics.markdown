@@ -8,6 +8,7 @@ language: false
 excerpt_separator: <!--more-->
 links_as: buttons
 image: false
+rank: 1
 ---
 <div id="nav" class="clearfix">
 <a href="#b1">Background</a>  

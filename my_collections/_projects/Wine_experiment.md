@@ -10,6 +10,7 @@ permalink: /_projects/Wine_Exp
 side-nav: on
 excerpt_separator: <!--more-->
 summary: {{excerpt}}
+rank: 7
 ---
 
 ##### In collaboration with [Sharad Varadarajan][sharadsite] and [Rory Liu][rorysite].

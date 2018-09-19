@@ -8,6 +8,7 @@ language: SQL
 excerpt_separator: <!--more-->
 links_as: buttons
 image: assets/images/bigquery_crimemap.PNG
+rank: 2
 ---
 
 <div id="nav" class="clearfix">

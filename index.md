@@ -16,14 +16,14 @@ On this site you'll find recent samples from my portfolio, my <a href="{{site.ba
 <br><br>
 
 <hr class="style-four"><br>
-<h2  align="center">Recent Content</h2><br>
+<h2  align="center">Featured Content</h2><br>
 
 <ul>
     {% assign posts = site.articles %}
     {% assign projects = site.projects %}
-    {% assign sorted = projects | concat:posts | sort: 'date' | reverse %}
+    {% assign sorted = projects | concat:posts | sort: 'rank' | reverse %}
     {% for item in sorted limit:3 %}
-    {{ item.date | date: "%B %Y" }}
+    <!-- {{ item.date | date: "%B %Y" }} -->
     <h2 align="center" ><a href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a></h2>
         <h4  align="center">{{ item.description }}</h4>
         <a style="margin-left:45%" href="/by_category" class="category_button"> {{item.category}} </a>

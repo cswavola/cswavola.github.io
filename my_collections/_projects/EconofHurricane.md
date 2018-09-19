@@ -7,6 +7,7 @@ category: DataViz
 language: JavaScript/CSS/HTML
 links_as: buttons
 image: false
+rank: 4
 
 ---
 ##### In collaboration with [Joe Izenman][joesite]
@@ -23,6 +24,8 @@ An interactive investigation of the economic effects of Katrina on the counties 
 <br>
 #### Method
 Geographical data was parsed using APIs. Site designed and constructed using JS/CSS/HTML. This project was designed to explore methods of data visualization to engage and communicate massive amounts of data.
+
+<!--more-->
 
 [Project Git][Hurricane_github]
 

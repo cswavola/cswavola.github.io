@@ -7,7 +7,9 @@ category: Machine Learning
 language: Python
 links_as: buttons
 permalink: /_projects/bikeshare
+excerpt_separator: <!--more-->
 image: false
+rank: 5
 
 ---
 <div id="nav" class="clearfix">
@@ -32,7 +34,7 @@ Using bike sharing systems, people rent a bike from a one location and return it
 
 <img src="/assets/images/EDA_count.PNG" alt="drawing" />
 <br><br>
-
+<!--more-->
 
 <h1><a name="2"></a>EDA and Pipeline</h1>
 The data consists of hourly rental data spanning two years. The training set is comprised of the first 19 days of each month, while the test set is the 20th to the end of the month.

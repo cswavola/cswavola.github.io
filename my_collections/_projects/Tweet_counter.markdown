@@ -9,6 +9,7 @@ language2: SQL
 permalink: /_projects/tweet_count
 links_as: buttons
 excerpt_separator: <!--more-->
+rank: 3
 
 ---
 <div id="nav" class="clearfix">

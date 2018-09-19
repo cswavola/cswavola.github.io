@@ -9,6 +9,7 @@ language: false
 links_as: buttons
 excerpt_separator: <!--more-->
 image: assets/images/privacy_framework.PNG
+rank: 6
 ---
 
 <div id="nav" class="clearfix">
