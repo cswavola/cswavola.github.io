@@ -1,12 +1,11 @@
 
   <a href="#linktotop">Back To Top</a>
-
 <footer class="site-footer h-card">
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
   <div class="wrapper">
 
     <h2 class="footer-heading"></h2>
-
+    {%- if page.title != "CodeAssist" -%}
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
@@ -56,6 +55,7 @@
           {% endif %}
       </div>
     </div>
+    {% endif %}
 
   </div>
 
