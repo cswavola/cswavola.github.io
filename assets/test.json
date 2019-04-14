@@ -1,0 +1,10 @@
+{
+    "first_name": "Nikolai",
+    "last_name": "Ivanovich",
+    "gender": "male",
+    "age": "35",
+    "weight": "180",
+    "admissiondate": "01/02/1984",
+    "admissiontime": "02:30",
+    "preopnotes": "The quick brown fox jumped over the lazy dog"
+}

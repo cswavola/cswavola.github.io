@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
-
-  {%- include head.html -%}
+    {%- include head.html -%}
 
   <body>
+    {% if page.title != "test" %}
+      {%- include header.html -%}
+    {% endif %}
+    {% if page.permalink == '/test/' %}
+    {% endif %}
 
-    {%- include header.html -%}
+
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
@@ -33,8 +37,9 @@
         {{ content }}
       </div>
     </main>
-
+    {% if page.permalink != '/test/' %}
     {%- include footer.html -%}
+    {% endif %}
 
   </body>
 

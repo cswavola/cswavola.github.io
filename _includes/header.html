@@ -3,7 +3,9 @@
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
+    {%- if page.title != "CodeAssist" -%}
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}" >{{ site.title | escape }}</a>
+    {%- endif -%}
 
     {%- if page_paths -%}
       <nav class="site-nav">
@@ -16,6 +18,7 @@
           </span>
         </label>
 
+        {%- if page.title != "CodeAssist" -%}
         <div class="trigger">
           {%- for path in page_paths -%}
             {%- assign my_page = site.pages | where: "path", path | first -%}
@@ -25,6 +28,7 @@
           {%- endfor -%}
           <a class="page-link" href="{{site.baseurl}}/assets/CSwavola.Resume.pdf">Resume</a>
         </div>
+        {%- endif -%}
       </nav>
     {%- endif -%}
   </div>
