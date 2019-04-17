@@ -41,10 +41,20 @@ With a relatively small starting dataset, we predict anesthesia billing codes wi
 <!--more-->
 <hr>
 <h1><a name="2"></a>Pre-Model Processing</h1>
+In order to ensure the most efficient model, CodeAssist employed two major data preprocessing steps: text cleaning and output class category merging or binning.
+
+Text cleaning included null/NA data removal, tokenization, lowercasing, deduplication, stopword removal, stemming and lemmatization on the input, namely, the preoperative notes, used to train the model.
 
 <br>
 ![textProcess]({{ "/assets/images/CA_textProcess.PNG"  }})
 <br>
+
+The motivation for binning was driven by the observation that the number of output classes was very large in comparison to the size of the dataset, and that there were many clusters of output codes referring to surgical procedures that differed only in details of dimensions, location or other attribute. Predicting the specific code based on preoperative notes alone would have led to inaccuracies, since in many cases the specific dimensions and locations of the procedure are only known after the procedure is complete.
+
+From a performance metric perspective, by combining these codes into bins, training the models on the bins and predicting the bins, CodeAssist achieved a higher accuracy and recall, as more false positives were surfaced when the bin(s) are expanded and presented to the user. This issue is mitigated because the surgeon can select the correct individual codes from the expanded bin(s).
+
+The decision to prioritize accuracy and recall over precision was validated with potential users of the system.
+
 
 <br><br>
 <hr>
