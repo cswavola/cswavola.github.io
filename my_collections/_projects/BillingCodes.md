@@ -55,6 +55,7 @@ From a performance metric perspective, by combining these codes into bins, train
 
 The decision to prioritize accuracy and recall over precision was validated with potential users of the system.
 
+{% include googleDrivePlayer.html id="1RTbVQ4lff_Ty8suZW5Rkr-I2qP12WOId/preview" %}
 
 <br><br>
 <hr>
