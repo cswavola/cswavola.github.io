@@ -36,6 +36,8 @@ Working with industry professionals has led to a thorough understanding of the b
 <img src="/assets/images/CA_workflow.PNG" alt="drawing" />
 
 With a relatively small starting dataset, we predict anesthesia billing codes with 77.3% accuracy (human baseline of 72.9%). We predict incorrectly billed cases with 75% accuracy (baseline of 56%). Due to the large number of surgical CPT codes, human billing staff are still 11% more accurate in delineating exact sets of surgical CPT codes, which we aim to address with ongoing data collection efforts.
+<br>
+![CS_perf]({{ "/assets/images/CA_perf.PNG"  }})
 
 <br><br>
 <!--more-->
