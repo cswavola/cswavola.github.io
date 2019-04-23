@@ -86,7 +86,7 @@ To capture the semantic meanings of words, we encode the input text using pre-tr
 
 ![CA_CNN]({{ "/assets/images/CA_CNN.PNG"  }})
 
-Our EDA shows the hospital billing codes are correct 57% of the time. Improving over this baseline, our CNN model has achieved a risk prediction [accuracy of 70%]({{site.baseurl}}/assets/images/CA_CNNperform.PNG") [across patients]({{site.baseurl}}/assets/images/CA_CNNerror.PNG"). Experiments show the prediction accuracy improves with the size of training data, thus, we expect better model performance when more data becomes available.
+Our EDA shows the hospital billing codes are correct 57% of the time. Improving over this baseline, our CNN model has achieved a risk prediction [accuracy of 70%]({{site.baseurl}}/assets/images/CA_CNNperform.PNG) [across patients]({{site.baseurl}}/assets/images/CA_CNNerror.PNG). Experiments show the prediction accuracy improves with the size of training data, thus, we expect better model performance when more data becomes available.
 
 
 
