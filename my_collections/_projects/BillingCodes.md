@@ -18,7 +18,6 @@ rank: 8
 <a href="#3">Code Prediction</a>
 <a href="#4">Risk Prediction</a>
 <a href="#5">Demo</a>
-<!-- <a href="#6">Error and Analysis</a> -->
 <a href="#7">Team</a>
 </div>
 <br>
