@@ -10,7 +10,9 @@
   {%- endif -%}
   <!-- Share image -->
     <meta property="og:image" content="{{ site.url }}/{{ page.header-img }}" />
-
+    {% if site.google_analytics and jekyll.environment == 'production' %}
+    {% include analytics.html %}
+    {% endif %}
 
 </head>
 

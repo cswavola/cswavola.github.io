@@ -29,6 +29,9 @@ theme: minima
 plugins:
   - jekyll-feed
 
+# Google Analytics
+google_analytics: UA-179874529-1
+
 collections:
   articles:
     output: true
